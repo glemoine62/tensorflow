@@ -9,11 +9,11 @@ from tflearn.data_utils import load_csv
 
 fname = sys.argv[1]
 nclass = int(sys.argv[2])
+trainsetsize = int(sys.argv[3])
+nepoch = int(sys.argv[4])
 
 data, labels = load_csv(fname, target_column=-1,
                         categorical_labels=True, n_classes=nclass)
-
-print(labels)
 
 org_data, org_labels = load_csv(fname, target_column=-1,
                         categorical_labels=True, n_classes=nclass)
@@ -41,12 +41,22 @@ net = tflearn.regression(net)
 # Define model
 model = tflearn.DNN(net)
 # Start training (apply gradient descent algorithm)
-model.fit(data[0:1000], labels[0:1000], n_epoch=100, batch_size=32, show_metric=True)
+model.fit(data[0:trainsetsize], labels[0:trainsetsize], n_epoch=nepoch, batch_size=32, show_metric=True)
+
+fw = open(sys.argv[1].replace('.csv', '_predictions.csv'), 'w')
+fw.write("id,klass")
+for i in range(nclass):
+  fw.write(",prob{}".format(i))
+fw.write('\n')
 
 # Check predictions for the samples not used in training
-for i in range(1000,len(data)):
+for i in range(trainsetsize,len(data)):
   sample = data[i]
   slabel = labels[i].tolist().index(1)
   #print(labels[i])
   pred = model.predict([sample])
-  print("{:s},{:1.0f},{:6.2f},{:6.2f},{:6.2f},{:6.2f},{:6.2f},{:6.2f}".format(org_data[i][1], slabel, 100*pred[0][0], 100*pred[0][1], 100*pred[0][2], 100*pred[0][3], 100*pred[0][4], 100*pred[0][5]))
+  fw.write("{},{}".format(org_data[i][1], str(slabel)))
+  for i in range(nclass):
+    fw.write(",{:6.2f}".format(100*pred[0][i]))
+  fw.write('\n')
+
