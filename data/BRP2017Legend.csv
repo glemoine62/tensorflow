@@ -1,0 +1,302 @@
+system:index	cropcode	cropcount	cropname	cropname_EN
+0	2025	247	Aardappelen, bestrijdingsmaatregel AM	Potatoes, special crop protection measure AM
+1	2014	16988	Aardappelen, consumptie	Potatoes, consumption
+2	2015	8507	Aardappelen, poot NAK	Potatoes, seed, NAK
+3	2016	1020	Aardappelen, poot TBM	Potatoes, seed, TBM
+4	2017	7539	Aardappelen, zetmeel	Potatoes, starch
+5	2706	301	Aardbeien op stellingen, productie	Strawberries
+6	2704	152	Aardbeien op stellingen, vermeerdering	Strawberries
+7	2705	28	Aardbeien op stellingen, wachtbed	Strawberries
+8	2707	65	Aardbeien op stellingen, zaden en opkweekmateriaal	Strawberries
+9	2702	512	Aardbeien open grond, productie	Strawberries
+10	2700	307	Aardbeien open grond, vermeerdering	Strawberries
+11	2701	99	Aardbeien open grond, wachtbed	Strawberries
+12	2703	40	Aardbeien open grond, zaden en opkweekmateriaal	Strawberries
+13	1949	18	Aardperen	Other
+14	1045	1	Adonis	Other
+15	1926	1008	Agrarisch natuurmengsel	Agricultural nature mix
+16	1007	17	Amaryllis, bloembollen en -knollen	Other
+17	994	2	Amaryllis, overige bloemkwekerijgewassen	Other
+18	2708	107	Andijvie, productie	Endiva
+19	1042	5	Angelica, productie	Other
+20	1043	1	Angelica, zaden en opkweekmateriaal	Other
+21	1095	226	Appelen. Aangeplant lopende seizoen.	Apples
+22	1096	3233	Appelen. Aangeplant voorafgaande aan lopende seizoen.	Apples
+23	2711	312	Asperges, oppervlakte die nog geen productie oplevert	Asparagus
+24	2710	1761	Asperges, oppervlakte die productie oplevert	Asparagus
+25	2712	93	Asperges, zaden en opkweekmateriaal	Asparagus
+26	2731	4	Augurk, productie	Other
+27	2732	4	Augurk, zaden en opkweekmateriaal	Other
+28	1869	324	Bessen, blauwe	Berries, blue
+29	2325	292	Bessen, rode	Berries, red
+30	1873	78	Bessen, zwarte (opbrengst verwerkt voor verwerkende industrie)	Berries, black
+31	256	17185	Bieten, suiker-	Sugarbeet
+32	257	773	Bieten, voeder-	Fodder beet
+33	3502	31	Bladkool	Leafy cabbage
+34	3503	4	Bladraap	Other
+35	3504	252	Bladrammenas	Leafy raddish
+36	1015	42	Blauw druifje, bloembollen en -knollen	Flowers
+37	1013	6	Blauw druifje, overige bloemkwekerijgewassen	Flowers
+38	247	94	Blauwmaanzaad	Poppy seed, blue
+39	2795	72	Bloemkool, winter, productie	Cauliflower
+40	2796	2	Bloemkool, winter, zaden en opkweekmateriaal	Cauliflower
+41	2797	547	Bloemkool, zomer, productie	Cauliflower
+42	2798	7	Bloemkool, zomer, zaden en opkweekmateriaal	Cauliflower
+43	174	307	Bloemzaden open grond	Flowers, seed
+44	2715	82	Boerenkool, productie	Kale
+45	2716	2	Boerenkool, zaden en opkweekmateriaal	Kale
+46	242	334	Bonen, bruine-	Beans, brown
+47	853	99	Bonen, tuin- (droog te oogsten) (geen consumptie)	Beans, broad
+48	854	371	Bonen, tuin- (groen te oogsten)	Beans, broad
+49	311	207	Bonen, veld- (onder andere duiven-, paarden-, wierbonen)	Beans, field
+50	662	63	Bos (SBL-regeling)	Forest
+51	864	51	Bos (set aside regeling)	Forest
+52	863	1905	Bos zonder herplantplicht	Forest
+53	1936	3988	Bos, blijvend, met herplantplicht	Forest
+54	1067	1888	Bos- en haagplanten, open grond,	Forest
+55	1081	281	Bos- en haagplanten, pot- en containerveld,	Forest
+56	2717	79	Bospeen, productie	Carrots
+57	2718	5	Bospeen, zaden en opkweekmateriaal	Carrots
+58	2327	87	Bramen	Blackberries
+59	654	3	Brandnetel	Other
+60	2719	386	Broccoli, productie	Broccoli
+61	2720	2	Brocolli, zaden en opkweekmateriaal	Broccoli
+62	1068	748	Buxus, open grond,	Buxus
+63	1082	44	Buxus, pot- en containerveld,	Buxes
+64	2721	60	Chinese kool, productie	Cabbage, chinese
+65	1041	2	Chrysant, bloembollen en -knollen	Flowers
+66	1039	29	Chrysant, overige bloemkwekerijgewassen	Flowers
+67	511	732	Cichorei	Cichory
+68	2723	117	Courgette, productie	Courgette
+69	2724	1	Courgette, zaden en opkweekmateriaal	Courgette
+70	1047	20	Cranberry	Cranberry
+71	997	156	Dahlia, bloembollen en - knollen	Dahlia
+72	965	2	Dahlia, droogbloemen	Dahlia
+73	964	53	Dahlia, overige bloemkwekerijgewassen	Dahlia
+74	3505	3	Deder	Other
+75	1048	12	Echinacea (zonnehoed), productie	Other
+76	3506	473	Engels raaigras	Rye-grass, English
+77	1069	32	Ericaceae (Zoals erica, calluna, rododendron, azalea), open grond,	Flowers
+78	1083	61	Ericaceae (Zoals erica, calluna, rododendron, azalea), pot- en containerveld,	Flowers
+79	308	80	Erwten (droog te oogsten)	Peas
+80	244	645	Erwten, groene/gele (groen te oogsten)	Peas, green
+81	801	5	Esparcette	Other
+82	3507	13	Ethiopische mosterd	Other
+83	3508	52	Facelia	Facelia
+84	3509	2	Festulolium	Other
+85	2326	163	Frambozen	Raspberries
+86	3510	44	Franse boekweit	Buckwheat, French
+87	428	123	Gele mosterd	Mustard, yellow
+88	235	2280	Gerst, winter-	Barley, winter
+89	236	6330	Gerst, zomer-	Barley, summer
+90	998	314	Gladiool, bloembollen en - knollen	Flowers
+91	968	2	Gladiool, droogbloemen	Flowers
+92	967	56	Gladiool, overige bloemkwekerijgewassen	Flowers
+93	265	369624	Grasland, blijvend	Grassland, permanent
+94	336	15996	Grasland, natuurlijk. Areaal met een natuurbeheertype dat overwegend voor landbouwactiviteiten-GLB wordt gebruikt	Grassland, natural for agricultural use
+95	331	17369	Grasland, natuurlijk. Hoofdfunctie landbouw.	Grassland, natural for agricultural use
+96	332	5628	Grasland, natuurlijk. Hoofdfunctie natuur.	Grassland, natural for non-agricultural use
+97	266	93036	Grasland, tijdelijk	Grassland, temporary
+98	383	2035	Graszaad	Grass-seed
+99	1921	507	Graszoden	Grassland, turf
+100	238	654	Haver	Oats
+101	944	409	Hennep, vezel-	Hemp, fiber
+102	375	7	Hop	Hops
+103	999	495	Hyacint, bloembollen en - knollen	Flowers
+104	970	7	Hyacint, overige bloemkwekerijgewassen	Flowers
+105	1033	4	Igniscum Candy	Oats
+106	1000	90	Iris, bloembollen en -knollen	Flowers
+107	973	11	Iris, overige bloemkwekerijgewassen	Flowers
+108	3512	138	Italiaans raaigras	Rye-grass, Italian
+109	670	792	Japanse haver	Oats, Japanese
+110	1034	2	Kanariezaad	Other
+111	241	138	Kapucijners (en grauwe erwten)	Peas, capuchin and grey
+112	246	6	Karwijzaad (oogst dit jaar)	Caraway seed
+113	2328	584	Kersen, zoet	Cherries
+114	1872	153	Kersen, zuur (opbrengst bestemd voor verwerkende industrie)	Cherries
+115	796	778	Kerstbomen	Christmas trees
+116	3500	4	Klaver, Alexandrijnse	Clover, Alexandrian
+117	799	580	Klaver, rode	Clover, red
+118	3524	33	Klaver, witte	Clover, white
+119	804	1	Klaverzaad	Clover seed
+120	1021	37	Knoflook	Garlic
+121	2725	432	Knolselderij, productie	Celeriac
+122	2726	2	Knolselderij, zaden en opkweekmateriaal	Celeriac
+123	2727	90	Knolvenkel/venkel, productie	Fennel
+124	2729	17	Komkommer, productie	Cucumber
+125	2737	35	Koolraap, productie	Swede
+126	2739	26	Koolrabi, productie	Kohlrabi
+127	1922	322	Koolzaad, winter (incl. boterzaad)	Rapeseed, winter
+128	1923	90	Koolzaad, zomer (incl. boterzaad)	Rapeseed, summer
+129	1001	142	Krokus, bloembollen en - knollen	Flowers
+130	976	3	Krokus, overige bloemkwekerijgewassen	Flowers
+131	2741	254	Kroten/rode bieten, productie	Beet, red
+132	2742	3	Kroten/rode bieten, zaden en opkweekmateriaal	Beet, red
+133	2743	109	Kruiden, productie	Herbs
+134	2744	19	Kruiden, zaden en opkweekmateriaal	Herbs
+135	1016	1	Kuifhyacint, overige bloemkwekerijgewassen	Flowers
+136	1070	370	Laanbomen/parkbomen, onderstammen, open grond,	Trees, ornamental
+137	1084	11	Laanbomen/parkbomen, onderstammen, pot- en containerveld,	Trees, ornamental
+138	1071	2048	Laanbomen/parkbomen, opzetters, open grond,	Trees, ornamental
+139	1085	112	Laanbomen/parkbomen, opzetters, pot- en containerveld,	Trees, ornamental
+140	1072	945	Laanbomen/parkbomen, spillen, open grond,	Trees, ornamental
+141	1086	74	Laanbomen/parkbomen, spillen, pot- en containerveld,	Trees, ornamental
+142	1028	1	Lavas (Maggiplant), productie	Other
+143	1050	1	Leeuwenbekjes	Other
+144	1002	1533	Lelie, bloembollen en -knollen	Lillies
+145	979	56	Lelie, overige bloemkwekerijgewassen	Lillies
+146	663	36	Lupinen, niet bittere	Lupines
+147	258	1814	Luzerne	Alfalfa
+148	317	1384	Ma�s, corncob mix	Maize, corncob mix
+149	2032	65	Ma�s, energie-	Maize, energy
+150	316	3804	Ma�s, korrel-	Maize, grain
+151	259	79672	Ma�s, snij-	Maize, sillage
+152	814	304	Ma�s, suiker-	Maize, sugar
+153	652	2	Meekrap	Other
+154	516	168	Miscanthus (olifantsgras)	Miscanthus
+155	1035	1	Naaldaar (Setaria)	Other
+156	1003	604	Narcis, bloembollen en -knollen	Flowers
+157	982	20	Narcis, overige bloemkwekerijgewassen	Flowers
+158	335	3424	Natuurterreinen (incl. heide)	Nature areas, incl. Heather
+159	2645	102	Notenbomen	Nut trees
+160	2300	105	Onbeteelde grond vanwege een teeltverbod/ontheffing	Fallow, due to restrictions
+161	1874	134	Overig kleinfruit (zoals kruisbessen, kiwi's)	Small fruits, others (gooseberries, kiwi)
+162	1925	268	Overige akkerbouwgewassen	Other arable crops
+163	1006	649	Overige bloemen, bloembollen en -knollen	Flowers
+164	992	47	Overige bloemen, droogbloemen	Flowers
+165	991	1174	Overige bloemen, overige bloemkwekerijgewassen	Flowers
+166	2652	341	Overige granen	Cereals, others
+167	427	1032	Overige groenbemesters, niet-vlinderbloemige-	Green manure, non-leguminous
+168	426	179	Overige groenbemesters, vlinderbloemige-	Green manure, leguminous
+169	2791	45	Overige niet genoemde bladgewassen, productie	Miscellaneous leafy crops
+170	2792	27	Overige niet genoemde bladgewassen, zaden en opkweekmateriaal	Miscellaneous leafy crops
+171	2793	478	Overige niet genoemde groenten, productie	Miscellaneous vegetables
+172	2794	112	Overige niet genoemde groenten, zaden en opkweekmateriaal	Miscellaneous vegetables
+173	1100	32	Overige pit- en steenvruchten (zoals perziken, tafeldruiven)	Miscellaneous pit-, stone-fruits
+174	2745	26	Paksoi, productie	Paksoi
+175	1044	4	Papaver	Other
+176	1023	91	Pastinaak, productie	Parsnip
+177	1024	2	Pastinaak, zaden en opkweekmateriaal	Parsnip
+178	1097	278	Peren. Aangeplant lopende seizoen.	Pears
+179	1098	4419	Peren. Aangeplant voorafgaande aan lopende seizoen.	Pears
+180	1037	49	Peterselie, productie	Parsley
+181	1038	1	Peterselie, zaden en opkweekmateriaal	Parsley
+182	2747	31	Peulen, productie	Pods
+183	2748	1	Peulen, zaden en opkweekmateriaal	Pods
+184	1027	149	Pioenroos, bloembollen en -knollen	Flowers
+185	1026	2	Pioenroos, droogbloemen	Flowers
+186	1025	308	Pioenroos, overige bloemkwekerijgewassen	Flowers
+187	2735	589	Pompoen, productie	Pumpkin
+188	2736	15	Pompoen, zaden en opkweekmateriaal	Pumpkin
+189	2799	485	Prei, winter, productie	Leeks, winter
+190	2800	104	Prei, winter, zaden en opkweekmateriaal	Leeks, winter
+191	2801	363	Prei, zomer, productie	Leeks, summer
+192	2802	33	Prei, zomer, zaden en opkweekmateriaal	Leeks, summer
+193	2751	2	Pronkbonen, productie	Beans, runner
+194	2752	13	Pronkbonen, zaden en opkweekmateriaal	Beans, runner
+195	1870	447	Pruimen	Prunes
+196	1022	19	Quinoa	Quinoa
+197	2753	7	Raapstelen, productie	Turnip tops
+198	664	5	Raapzaad	Rapeseed
+199	2755	274	Rabarber, productie	Rhubarb
+200	2756	55	Rabarber, zaden en opkweekmateriaal	Rhubarb
+201	2757	7	Radijs, productie	Radish
+202	2758	6	Radijs, zaden en opkweekmateriaal	Radish
+203	671	22	Raketblad (aaltjesvanggewas)	Rocket
+204	333	755	Rand, grenzend aan blijvend grasland of een blijvende teelt, hoofdzakelijk bestaand uit blijvend gras	Edge, grass
+205	344	328	Rand, grenzend aan blijvend grasland of een blijvende teelt, hoofdzakelijk bestaand uit een ander gewas dan gras	Edge, not grass
+206	370	166	Rand, grenzend aan blijvend grasland of een blijvende teelt, hoofdzakelijk bestaand uit tijdelijk gras	Edge, temporary grass
+207	334	633	Rand, grenzend aan bouwland, hoofdzakelijk bestaand uit blijvend gras	Edge, permanent grass
+208	3803	1853	Rand, grenzend aan bouwland, hoofdzakelijk bestaand uit een ander gewas dan gras. (EA: beheer)	Edge, not grass, managed
+209	3804	3260	Rand, grenzend aan bouwland, hoofdzakelijk bestaand uit een ander gewas dan gras. (EA: onbeheerd)	Edge, not grass, not managed
+210	372	3523	Rand, grenzend aan bouwland, hoofdzakelijk bestaand uit tijdelijk gras	Edge, temporary grass
+211	3807	88	Rietzwenkgras, anders dan voor industriegras	Cane fescue
+212	3805	16	Rietzwenkgras, industriegras	Cane fescue
+213	2759	287	Rodekool, productie	Cabbage, red
+214	237	1042	Rogge (geen snijrogge)	Rye-grass, English
+215	800	7	Rolklaver	Clover, scroll
+216	1073	214	Rozenstruiken (incl, zaailingen en onderstammen), open grond,	Flowers
+217	1087	42	Rozenstruiken (incl, zaailingen en onderstammen), pot- en containerveld,	Flowers
+218	3517	7	Sarepta mosterd/Caliente	Other
+219	2761	45	Savooiekool, productie	Cabbage, savoy
+220	2764	1	Schorseneren, zaden en opkweekmateriaal	Salsify
+221	2763	191	Schorseneren	Salsify
+222	2765	65	Selderij, bleek- en groen-, productie	Celery
+223	2766	2	Selderij, bleek- en groen-, zaden en opkweekmateriaal	Celery
+224	1074	1600	Sierconiferen, open grond,	Trees, ornamental
+225	1088	423	Sierconiferen, pot- en containerveld,	Trees, ornamental
+226	1075	1259	Sierheesters en klimplanten, open grond,	Trees, ornamental
+227	1089	924	Sierheesters en klimplanten, pot- en containerveld,	Trees, ornamental
+228	1012	47	Sierui, bloembollen en -knollen	Flowers
+229	1010	9	Sierui, overige bloemkwekerijgewassen	Flowers
+230	2767	316	Sla, ijsberg-, productie	Salad
+231	2768	7	Sla, ijsberg-, zaden en opkweekmateriaal	Salad
+232	2771	229	Sla; overig, productie	Salad
+233	2772	17	Sla; overig, zaden en opkweekmateriaal	Salad
+234	2769	24	Sla; radicchio rosso, productie	Salad
+235	343	1557	Sloot, grenzend aan beheerde akkerrand	Ditch
+236	1876	104	Snijgroen	Other
+237	3519	116	Soedangras/Sorghum	Sorghum
+238	665	140	Sojabonen	Beans, soy
+239	382	164	Spelt	Spelt
+240	2773	495	Spinazie, productie	Spinach
+241	2774	133	Spinazie, zaden en opkweekmateriaal	Spinach
+242	2775	180	Spitskool, productie	Cabbage
+243	2776	1	Spitskool, zaden en opkweekmateriaal	Cabbage
+244	2777	437	Spruitkool/spruitjes, productie	Cabbage, sprouts
+245	2778	3	Spruitkool/spruitjes, zaden en opkweekmateriaal	Cabbage, sprouts
+246	2779	568	Stamsperziebonen (=stamslabonen), productie	Beans, green
+247	2780	24	Stamsperziebonen (=stamslabonen), zaden en opkweekmateriaal	Beans, green
+248	2781	61	Stoksnijbonen en stokslabonen, productie	Beans, green
+249	2782	60	Stoksnijbonen en stokslabonen, zaden en opkweekmateriaal	Beans, green
+250	3521	1	Stoppelknollen	Other
+251	346	201	Tagetes erecta (Afrikaantje)	Tagetes
+252	347	372	Tagetes patula (Afrikaantje)	Tagetes
+253	233	20377	Tarwe, winter-	Wheat, winter
+254	234	2777	Tarwe, zomer-	Wheat, summer
+255	381	4	Teff	Other
+256	653	29	Teunisbloem	Flowers
+257	3802	578	Tijdelijk onbeteelde grond, anders dan voor publieke werken	Fallow, other than for public works
+258	3801	232	Tijdelijk onbeteelde grond, i.v.m. publieke werken	Faloow, for public works
+259	3522	16	Timothee	Other
+260	1076	312	Trek- en besheesters, open grond,	Trees, ornamental
+261	1090	19	Trek- en besheesters, pot- en containerveld,	Trees, ornamental
+262	314	583	Triticale	Triticale
+263	1004	3061	Tulp, bloembollen en -knollen	Tulips
+264	985	31	Tulp, overige bloemkwekerijgewassen	Tulips
+265	1931	1705	Uien, poot- en plant- (incl. sjalotten)	Onions, plant
+266	262	5030	Uien, zaai-	Onions, seed
+267	263	85	Uien, zilver-	Onions, silver
+268	1019	42	Valeriaan, productie	Others
+269	1020	1	Valeriaan, zaden en opkweekmateriaal	Others
+270	1080	904	Vaste planten, open grond,	Horticulture
+271	1094	500	Vaste planten, pot- en containerteelt,	Horticulture
+272	3523	32	Veldbeemdgras	Grass, field
+273	1046	1	Vergeet mij nietje	Other
+274	666	14	Vlas, olie-. Lijnzaad niet van vezelvlas	Flax
+275	3736	485	Vlas, vezel-	Flax, fiber
+276	1077	159	Vruchtbomen, moerbomen, open grond,	Fruit trees
+277	1091	2	Vruchtbomen, moerbomen, pot- en containerveld,	Fruit trees
+278	1078	176	Vruchtbomen, onderstammen, open grond,	Fruit trees
+279	1079	294	Vruchtbomen, overig, open grond,	Fruit trees
+280	1093	89	Vruchtbomen, overig, pot- en containerveld,	Fruit trees
+281	2783	607	Waspeen, productie	Carrots
+282	2784	8	Waspeen, zaden en opkweekmateriaal	Carrots
+283	3513	21	Westerwolds raaigras	Rye grass, Westerwolds
+284	1099	152	Wijndruiven	Grapes, wine
+285	802	2	Wikke, bonte	Other
+286	803	12	Wikke, voeder-	Other
+287	795	54	Wilgenhakhout	Willow
+288	2785	1328	Winterpeen, productie	Carrots, winter
+289	2786	10	Winterpeen, zaden en opkweekmateriaal	Carrots, winter
+290	2787	641	Witlofwortel, productie	Chicory, white
+291	2788	29	Witlofwortel, zaden en opkweekmateriaal	Chicory, white
+292	2789	586	Witte kool, productie	Cabbage, white
+293	2790	11	Witte kool, zaden en opkweekmateriaal	Cabbage, white
+294	1036	27	Wortelpeterselie	Parsley, root
+295	794	47	Woudbomen met korte omlooptijd (excl. Wilgenhakhout)	Trees
+296	1005	106	Zantedeschia, bloembollen en -knollen	Flowers
+297	988	5	Zantedeschia, overige bloemkwekerijgewassen	Flowers
+298	515	344	Zonnebloemen	Sunflowers
+299	669	1	Zwaardherik (aaltjesvanggewas)	Other
+300	655	3	Zwarte mosterd	Mustard, black
