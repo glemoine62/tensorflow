@@ -18,4 +18,6 @@ for i in df.index:
 
 np.set_printoptions(suppress=True, precision=0)
 
-print cm.astype(int)
+print "OA: ", 100.0*cm.trace()/cm.sum()
+
+print pd.DataFrame(cm, index = ['GRA', 'MAI', 'POT', 'WWH', 'SBT', 'ONI'], columns = ['GRA', 'MAI', 'POT', 'WWH', 'SBT', 'ONI'])
