@@ -12,8 +12,9 @@ from tflearn.data_utils import load_csv
 rootname = sys.argv[1]
 nclass = int(sys.argv[2])
 nepoch = int(sys.argv[3])
+nrun = int(sys.argv[4])
 
-flist = glob.glob(rootname + '_train_*.csv')
+flist = glob.glob(rootname + '_train_{}.csv'.format(nrun))
 print flist
 
 if len(flist) > 1:
@@ -23,7 +24,7 @@ elif len(flist) == 0:
   print "FATAL: No training set found for {}".format(rootname)
   sys.exit(1)
  
-glist = glob.glob(rootname + '_test_*.csv')
+glist = glob.glob(rootname + '_test_{}.csv'.format(nrun))
 
 if len(glist) > 1:
   print "FATAL: Only single test set allowed for {}, found {}".format(rootname, len(flist))
@@ -35,10 +36,10 @@ elif len(glist) == 0:
 fname = flist[0]
 gname = glist[0]
 
-data, labels = load_csv(fname, target_column=-1,
+data, labels = load_csv(fname, target_column=3,
                         categorical_labels=True, n_classes=nclass)
 
-test_data, test_labels = load_csv(gname, target_column=-1,
+test_data, test_labels = load_csv(gname, target_column=3,
                         categorical_labels=True, n_classes=nclass)
 
 # Preprocessing function
@@ -57,7 +58,7 @@ data = preprocess(data, to_ignore)
 # Build neural network
 net = tflearn.input_data(shape=[None, len(data[0])])
 net = tflearn.fully_connected(net, 32)
-#net = tflearn.fully_connected(net, 32)
+net = tflearn.fully_connected(net, 32)
 #net = tflearn.fully_connected(net, 32)
 net = tflearn.fully_connected(net, nclass, activation='softmax')
 net = tflearn.regression(net)
@@ -67,7 +68,7 @@ model = tflearn.DNN(net)
 # Start training (apply gradient descent algorithm)
 model.fit(data, labels, n_epoch=nepoch, batch_size=32, show_metric=True)
 
-fw = open('{}_predictions.csv'.format(rootname), 'w')
+fw = open('{}_{}_predictions.csv'.format(rootname, nrun), 'w')
 fw.write("id,klass")
 for i in range(nclass):
   fw.write(",prob{}".format(i))
