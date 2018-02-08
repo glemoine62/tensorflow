@@ -3,7 +3,7 @@ import pandas as pd
 
 df = pd.read_csv(sys.argv[1] + '.csv')
 
-#df = df[df.bufferedarea > 3000]
+df = df[df.bufferedarea > 1000]
 
 #df.drop(['.geo', 'area', 'bufferedarea', 'gws_gewas', 'id', 'perimeter'], axis=1, inplace=True)
 df.drop(['.geo', 'area', 'gws_gewas', 'id', 'perimeter'], axis=1, inplace=True)
