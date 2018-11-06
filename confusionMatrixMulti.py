@@ -25,12 +25,13 @@ np.set_printoptions(suppress=True, precision=0)
 pd.set_option('expand_frame_repr', False)
 
 print "Overall Accuracy: ", 100.0*cm.trace()/cm.sum()
-
+cm = cm/chunks
 # BEVL:
 #crops = ['GRA', 'MAI', 'POT', 'WWH', 'SBT', 'WBA', 'FBT']
-#print pd.DataFrame(cm, index = crops, columns = crops)
 # DK:
-
-crops = ['GRA', 'MAI', 'POT', 'WWH', 'SBT', 'WBA', 'WOR','SCE','WCE','VEG']
+#crops = ['GRA', 'MAI', 'POT', 'WWH', 'SBT', 'WBA', 'WOR','SCE','WCE','VEG']
+# NL Vallei:
+#crops = ['GRA', 'MAI', 'POT', 'SBA', 'SBT']
+# BG:
+crops = ['WWH', 'SFL', 'MAI', 'WOR', 'WBA', 'ALF','GRA']
 print pd.DataFrame(cm, index = crops, columns = crops)
-

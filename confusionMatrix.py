@@ -4,8 +4,6 @@ import numpy as np
 
 df = pd.read_csv(sys.argv[1], low_memory = False)
 
-threshold = 0.50
-
 dim = len(df.columns)-2
 r_index = df.columns[2:]
 
@@ -19,13 +17,15 @@ for i in df.index:
 np.set_printoptions(suppress=True, precision=0)
 pd.set_option('expand_frame_repr', False)
 
-print "OA: ", 100.0*cm.trace()/cm.sum()
+print "Overall Accuracy: ", 100.0*cm.trace()/cm.sum()
 
 # BEVL:
 #crops = ['GRA', 'MAI', 'POT', 'WWH', 'SBT', 'WBA', 'FBT']
-#print pd.DataFrame(cm, index = crops, columns = crops)
 # DK:
+#crops = ['GRA', 'MAI', 'POT', 'WWH', 'SBT', 'WBA', 'WOR','SCE','WCE','VEG']
+# NL Vallei:
+#crops = ['GRA', 'MAI', 'POT', 'WWH', 'SBT', 'ONI', 'SBA']
+# NRW2018
+crops = ['GRA', 'MAI', 'POT', 'WWH', 'SBT', 'WBA', 'WOR','WCE','SCE','VEG']
 
-crops = ['GRA', 'MAI', 'POT', 'WWH', 'SBT', 'WBA', 'WOR','SCE','WCE','VEG']
 print pd.DataFrame(cm, index = crops, columns = crops)
-

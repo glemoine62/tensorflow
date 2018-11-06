@@ -3,14 +3,19 @@ import pandas as pd
 
 df = pd.read_csv(sys.argv[1] + '.csv', low_memory=False)
 
-df = df[df.bufferedarea > 1000]
+df = df[df['area']> 3000]
 
-df.drop(['.geo', 'area', 'bufferedarea', 'GWSNAM_H', 'perimeter', 'random'], axis=1, inplace=True)
+df.drop(['.geo', 'area', 'GWSNAM_H', 'perimeter', 'random'], axis=1, inplace=True)
+
+df.dropna(inplace=True)
 
 cropcode = 'GWSCOD_H'
-df[cropcode] = df[cropcode].astype(int)
+# Make sure crop label is added as the last column
+df['croplabel'] = df[cropcode].astype(int)
+df.drop([cropcode], axis=1, inplace=True)
 
-#gra = df[cropcode].isin([265, 266])
+cropcode = 'croplabel'
+
 gra = df[cropcode].isin([60,700,3432])
 mai = df[cropcode].isin([201,202])
 pot = df[cropcode].isin([901,904])
@@ -32,6 +37,3 @@ subset = df.loc[df[cropcode].isin([0,1,2,3,4,5,6])]
 
 subset.to_csv(sys.argv[1]+ '_cropselect.csv')
 
-#subset.drop(['c_x', 'c_y'], axis=1, inplace=True)
-
-#subset.to_csv(sys.argv[1]+ '_cropselect_nocrds.csv')

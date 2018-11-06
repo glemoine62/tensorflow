@@ -18,34 +18,3 @@ for i in range(chunks):
 
 	df.to_csv(sys.argv[1]+ '_{}_class.csv'.format(i))
 
-
-# for i in df.index:
-# 	row = df.loc[i]
-# 	n = np.array(row[r_index]).argmax()
-
-# for i in range(1,chunks):
-# 	print rootname.format(i)
-# 	df_new = pd.read_csv(rootname.format(i), low_memory = False)
-
-	
-
-# 	for j in df_new.index:
-# 		if j in df.index:
-
-# 		row = df_new.loc[j]
-# 		n = np.array(row[r_index]).argmax()
-# 		cm[row.klass][n] += 1 
-
-# np.set_printoptions(suppress=True, precision=0)
-# pd.set_option('expand_frame_repr', False)
-
-# print "Overall Accuracy: ", 100.0*cm.trace()/cm.sum()
-
-# # BEVL:
-# #crops = ['GRA', 'MAI', 'POT', 'WWH', 'SBT', 'WBA', 'FBT']
-# #print pd.DataFrame(cm, index = crops, columns = crops)
-# # DK:
-
-# crops = ['GRA', 'MAI', 'POT', 'WWH', 'SBT', 'WBA', 'WOR','SCE','WCE','VEG']
-# print pd.DataFrame(cm, index = crops, columns = crops)
-

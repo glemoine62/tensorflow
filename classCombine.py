@@ -35,12 +35,6 @@ df.fillna(-1, inplace=True)
 
 r_index = df.columns[1:]
 
-# def majority(args):
-# 	(values, counts) = np.unique(np.array(args[r_index]), return_counts =True)
-# 	ind =np.argmax(counts)
-# 	return pd.Series({'majclass': ind, 'majcount': np.max(counts)})
-
-
 df['majclass'] = df.apply(lambda x: Counter(x[r_index]).most_common(1)[0][0], axis=1)
 df['majcount'] = df.apply(lambda x: Counter(x[r_index]).most_common(1)[0][1], axis=1)
 

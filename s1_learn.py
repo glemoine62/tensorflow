@@ -36,10 +36,10 @@ elif len(glist) == 0:
 fname = flist[0]
 gname = glist[0]
 
-data, labels = load_csv(fname, target_column=3,
+data, labels = load_csv(fname, target_column=-1,
                         categorical_labels=True, n_classes=nclass)
 
-test_data, test_labels = load_csv(gname, target_column=3,
+test_data, test_labels = load_csv(gname, target_column=-1,
                         categorical_labels=True, n_classes=nclass)
 
 # Preprocessing function
@@ -47,6 +47,7 @@ def preprocess(profiles, columns_to_delete):
     # Sort by descending id and delete columns
     for column_to_delete in sorted(columns_to_delete, reverse=True):
         [profile.pop(column_to_delete) for profile in profiles]
+    
     return np.array(profiles, dtype=np.float32)
 
 # Ignore 'id' 
